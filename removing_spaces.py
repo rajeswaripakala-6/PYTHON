@@ -1,6 +1,11 @@
 s=input()
-r=""
+res=""
 for i in s:
     if i!=' ': #checks character in string is not space is space avoids space
-        r+=i
-print(r)
+        res+=i
+print(res)
+"""using built-in function
+s=input()
+res=s.replace(" ","")
+print(res)
+"""
